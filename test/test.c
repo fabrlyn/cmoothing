@@ -49,28 +49,28 @@ MU_TEST(sma_add)
   }
 
   res = SMA_add(&sma, 3);
-  if (res != 3)
+  if (res != 3 || sma.average != res)
   {
     mu_fail("failed to calculate average");
     return;
   }
 
   res = SMA_add(&sma, 7);
-  if (res != 5)
+  if (res != 5 || sma.average != res)
   {
     mu_fail("failed to calculate average");
     return;
   }
 
   res = SMA_add(&sma, 11);
-  if (res != 7)
+  if (res != 7 || sma.average != res)
   {
     mu_fail("failed to calculate average");
     return;
   }
 
   res = SMA_add(&sma, 6);
-  if (res != 8)
+  if (res != 8 || sma.average != res)
   {
     mu_fail("failed to calculate average");
     return;
@@ -78,14 +78,14 @@ MU_TEST(sma_add)
 
 
   res = SMA_add(&sma, 1);
-  if (res != 6)
+  if (res != 6 || sma.average != res)
   {
     mu_fail("failed to calculate average");
     return;
   }
   
   res = SMA_add(&sma, 8);
-  if (res != 5)
+  if (res != 5 || sma.average != res)
   {
     mu_fail("failed to calculate average");
     return;
