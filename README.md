@@ -1,6 +1,37 @@
 # cmoothing
 
-For smoothing values
+For smoothing values.
+
+## Setup
+
+### Submodules
+Fetch submodules.
+
+`git submodules init`
+
+`git submodules update`
+
+### Building
+Build via make.
+
+`make` or `make build`
+
+
+### Test
+Test via make.
+
+`make test`
+
+### Distribute
+Create static library via make.
+
+`make static`
+
+
+### Clean
+Clean workspace via make
+
+`make clean`
 
 ## Example
 
