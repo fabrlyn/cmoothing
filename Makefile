@@ -19,7 +19,7 @@ EXEC_TEST = tests_run
 
 CC = clang
 STD = --std=c11
-FLAGS = #-Wall -Wpedantic
+FLAGS = -Wall -Wpedantic
 OPTIMAZATION = -O2
 
 LIB_NAME = $(PROJECT_NAME).a
