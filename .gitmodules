@@ -1,0 +1,3 @@
+[submodule "devs/minunit"]
+	path = devs/minunit
+	url = https://github.com/siu/minunit
