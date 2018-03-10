@@ -20,7 +20,7 @@ EXEC_TEST = tests_run
 CC = clang
 STD = --std=c11
 FLAGS = -Wall -Wpedantic
-OPTIMAZATION = -O2
+OPTIMAZATION = -Oz
 
 LIB_NAME = $(PROJECT_NAME).a
 LINKS = -I$(PWD)/deps/minunit -I$(PWD)/$(SRC_DIR) -L$(PWD) $(LIB_NAME)
