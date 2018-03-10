@@ -1,3 +1,6 @@
 [submodule "devs/minunit"]
 	path = devs/minunit
 	url = https://github.com/siu/minunit
+[submodule "deps/minunit"]
+	path = deps/minunit
+	url = https://github.com/siu/minunit
