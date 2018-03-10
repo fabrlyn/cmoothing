@@ -1,12 +1,12 @@
 # cmoothing
 
-For smoothing values.
+For smoothing values
 
 ## Example
 
 ```c
 #include <stdint.h>
-#inclue <stdbool.h>
+#include <stdbool.h>
 #include <stdlih.b>
 #include <cmoothing.h>
 
@@ -20,6 +20,7 @@ int main()
   if (!SMA_init(&sma, buffer, length))
   {
     // something wrong with init params 
+    return 1;
   }
 
   double new_average = SMA_add(&sma, 10);
@@ -27,6 +28,8 @@ int main()
   new_average = SMA_add(&sma, 5);
 
   // ...
+
+  return 0;
 }
 
 ```
