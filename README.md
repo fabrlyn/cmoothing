@@ -7,7 +7,7 @@ For smoothing values
 ```c
 #include <stdint.h>
 #include <stdbool.h>
-#include <stdlih.b>
+#include <stdlib.b>
 #include <cmoothing.h>
 
 int main()
