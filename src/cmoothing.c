@@ -52,6 +52,5 @@ double SMA_add(SMA *sma, int32_t value)
   }
 
 
-  sma->average = sma->sum / sma->filled;
-  return sma->average; 
+  return (sma->average = sma->sum / sma->filled);
 }
