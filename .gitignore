@@ -1,1 +1,3 @@
 test/tests_run
+*.a
+bin
