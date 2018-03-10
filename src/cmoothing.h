@@ -13,6 +13,4 @@ typedef struct SMA {
 bool SMA_init(SMA *sma, int32_t *buffer, uint32_t length);
 double SMA_add(SMA *sma, int32_t value);
 
-void router_test();
-
 #endif
