@@ -20,6 +20,11 @@ bool SMA_init(SMA *sma, int32_t *buffer, uint32_t length)
     return false;
   }
 
+  for (uint32_t i = 0; i < length; i++)
+  {
+    buffer[i] = 0;    
+  }
+
   sma->sum = 0;
   sma->length = length;
   sma->filled = 0;
